@@ -1,0 +1,12 @@
+language: python
+python:
+  - "2.6"
+  - "2.7"
+addons:
+  apt:
+    packages:
+      - "ranger"
+sudo: false
+install: true
+script:
+  - python setup.py test
