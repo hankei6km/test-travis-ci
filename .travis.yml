@@ -5,7 +5,6 @@ python:
 addons:
   apt:
     packages:
-      - "ranger"
 sudo: false
 install: true
 script:
