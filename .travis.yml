@@ -6,6 +6,9 @@ addons:
   apt:
     packages:
 sudo: false
-install: true
+install:
+  - pip install pytest
+  - pip install pytest-cov
+  - pip install mock
 script:
   - python setup.py test
