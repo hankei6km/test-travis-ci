@@ -3,7 +3,7 @@
 # Copyright (c) 2018 hankei6km
 # Licensed under the MIT License. See LICENSE.txt in the project root.
 
-from flying_tent import FlyingTent
+from flying_tent.flying_tent import FlyingTent
 
 
 class TestFlyingTent:
