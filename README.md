@@ -1,5 +1,7 @@
 # test-travis-ci
 
+[![Build Status](https://travis-ci.org/hankei6km/test-travis-ci.svg?branch=master)](https://travis-ci.org/hankei6km/test-travis-ci)
+
 Travi CI を試してみるためのリポジトリ.
 
 ## License
