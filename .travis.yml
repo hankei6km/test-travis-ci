@@ -6,9 +6,13 @@ addons:
   apt:
     packages:
 sudo: false
-install:
-  - pip install pytest
-  - pip install pytest-cov
-  - pip install mock
+install: true
+matrix:
+  include:
+    python: 2.6
+    install: true
+      - pip install pytest
+      - pip install pytest-cov
+      - pip install mock
 script:
   - python -m pytest tests
