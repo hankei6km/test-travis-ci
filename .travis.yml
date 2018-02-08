@@ -1,5 +1,14 @@
 language: python
 sudo: false
+python:
+  - "2.7"
+  - "3.5"
+addons:
+  apt:
+    packages:
+install: true
+script:
+  - python setup.py test
 matrix:
   include:
     python: 2.6
@@ -8,12 +17,3 @@ matrix:
       - pip install pytest-cov
       - pip install mock
     script: python -m pytest tests
-    python:
-      - "2.7"
-      - "3.5"
-    addons:
-      apt:
-        packages:
-    install: true
-    script:
-      - python setup.py test
